@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+	<styles>
+	body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #4CAF50;
+    text-align: center;
+    padding: 20px;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+</styles>
+        <img src="portada.jpg" alt="Portada">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="video.mp4">Video</a></li>
+            <li><a href="audio.mp3">Audio</a></li>
+            <li><a href="documento.pdf">Documento PDF</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Bienvenido a mi página</h1>
+        <p>Esta es una página de ejemplo creada con HTML y CSS.</p>
+    </main>
+</body>
+</html>
